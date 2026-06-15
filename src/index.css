@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette */
+  --color-sand: #D8C3A5;
+  --color-sand-light: #EAE0D5;
+  --color-sand-dark: #BFA582;
+
+  --color-ocean: #2E6D81;
+  --color-ocean-light: #5A9AAA;
+  --color-ocean-deep: #1B4D5C;
+
+  --color-coral: #D96C5E;
+  --color-coral-light: #E9968A;
+
+  --color-cream: #F9F6F1;
+  --color-cream-dark: #F2EFE9;
+
+  --color-espresso: #3B2F2F;
+  --color-espresso-light: #5D4E4E;
+
+  /* Typography */
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-espresso);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
