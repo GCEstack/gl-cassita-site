@@ -2,6 +2,12 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Family Pod
+
+- **Lead:** Lares
+- **Members:** Registrato, Vesta
+- **Why this pod owns it:** Lares protects this personal family site; Registrato manages files and content backlog, and Vesta preserves memory and archives.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
@@ -71,3 +77,23 @@ export default defineConfig([
   },
 ])
 ```
+
+## Purpose
+The GL Cassita Site project in the Lares Family portfolio.
+
+## Status
+Active
+
+## Stack
+- TBD
+
+## Quick Commands
+
+- `open cassita`
+- `audit cassita`
+
+## Backlog
+See `BACKLOG.md`.
+
+## Risks
+TBD — add risks and mitigations as they are identified.
